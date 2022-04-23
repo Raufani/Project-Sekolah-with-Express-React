@@ -20,7 +20,8 @@ const sekolahSchema = new Schema({
         required: true
     },
     gambar: {
-        type: String
+        type: String,
+        default: 'pangdam_jaya.jpg'
     }
 })
 
